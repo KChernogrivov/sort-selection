@@ -1,5 +1,5 @@
 let mass = [];
-for(let i = 0; i < 100; i++) mass[i] = Math.floor(Math.random() * 100);
+for(let i = 0; i < 1000; i++) mass[i] = Math.floor(Math.random() * 100);
 
 for(let i = 0; i < mass.length; i++) {
     let max = mass[i]
